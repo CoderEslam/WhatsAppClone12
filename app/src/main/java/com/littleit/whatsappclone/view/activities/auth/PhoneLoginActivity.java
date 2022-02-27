@@ -62,7 +62,7 @@ public class PhoneLoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (binding.btnNext.getText().toString().equals("Next")) {
 
-                    String phone = "+" + binding.edCodeCountry.getText().toString() + binding.edPhone.getText().toString();
+                    String phone = "+"+ binding.edCodeCountry.getText().toString() + binding.edPhone.getText().toString();
                     startPhoneNumberVerification(phone);
                 } else {
                     progressDialog.setMessage("Verifying ..");
@@ -87,8 +87,7 @@ public class PhoneLoginActivity extends AppCompatActivity {
             }
 
             @Override
-            public void onCodeSent(@NonNull String verificationId,
-                                   @NonNull PhoneAuthProvider.ForceResendingToken token) {
+            public void onCodeSent(@NonNull String verificationId, @NonNull PhoneAuthProvider.ForceResendingToken token) {
 
                 Log.d(TAG, "onCodeSent:" + verificationId);
 
@@ -132,14 +131,11 @@ public class PhoneLoginActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-
                             progressDialog.dismiss();
                             Log.d(TAG, "signInWithCredential:success");
                             FirebaseUser user = task.getResult().getUser();
                             startActivity(new Intent(PhoneLoginActivity.this, SetUserInfoActivity.class));
-
                         } else {
-
                             progressDialog.dismiss();
                             Log.w(TAG, "signInWithCredential:failure", task.getException());
                             if (task.getException() instanceof FirebaseAuthInvalidCredentialsException) {

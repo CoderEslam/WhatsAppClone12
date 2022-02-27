@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "70690020244",
-    "firebase_url": "https://whatsappclone-e89dc.firebaseio.com",
-    "project_id": "whatsappclone-e89dc",
-    "storage_bucket": "whatsappclone-e89dc.appspot.com"
+    "project_number": "380401251319",
+    "firebase_url": "https://littleitwhatsappclone-default-rtdb.firebaseio.com",
+    "project_id": "littleitwhatsappclone",
+    "storage_bucket": "littleitwhatsappclone.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:70690020244:android:e7f1242937a796790fcd81",
+        "mobilesdk_app_id": "1:380401251319:android:777620246d7a8c4af3b4f2",
         "android_client_info": {
           "package_name": "com.littleit.whatsappclone"
         }
       },
       "oauth_client": [
         {
-          "client_id": "70690020244-1oi8ghq4q8t8qb2uic7pbmso0q1a9fau.apps.googleusercontent.com",
+          "client_id": "380401251319-fdc3opc3g1506fjunqbgafrr3092doei.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.littleit.whatsappclone",
-            "certificate_hash": "18bf4c423ab8656054eb6680cb86d59f1656183d"
+            "certificate_hash": "f367566018492b50a0de360a9e903ef2ccef19e9"
           }
         },
         {
-          "client_id": "70690020244-t37levrmdjlkj0gkvtqkc7dfo3omcsca.apps.googleusercontent.com",
+          "client_id": "380401251319-s4prf07v2j19hs2c31novo8k4r81cgv1.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyASepLap2Dltl938_gwKMxBTnQrxy1HAF8"
+          "current_key": "AIzaSyCmWDCO33du_N8mxXfZjNJTvHooE1ycPuE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "70690020244-t37levrmdjlkj0gkvtqkc7dfo3omcsca.apps.googleusercontent.com",
+              "client_id": "380401251319-s4prf07v2j19hs2c31novo8k4r81cgv1.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

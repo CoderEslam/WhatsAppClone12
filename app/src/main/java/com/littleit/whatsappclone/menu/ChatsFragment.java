@@ -110,8 +110,6 @@ public class ChatsFragment extends Fragment {
     }
 
     private void getUserInfo(){
-
-
         handler.post(new Runnable() {
             @Override
             public void run() {
